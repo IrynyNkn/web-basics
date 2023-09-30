@@ -1,0 +1,48 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 50%;
+}
+
+#messages {
+  height: 200px;
+  overflow-y: scroll;
+}
+
+#msg-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.msg {
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.msg pre {
+  margin-bottom: 0;
+}
+
+.my-message {
+  background-color: rgba(144, 238, 144, 0.4);
+}
+
+.friend-message {
+  background-color: rgba(100, 149, 237, 0.2);
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <title>WebSocket Web Client</title>
+  </head>
+  <body>
+  <div id="error" class="alert alert-danger hidden" role="alert">
+      You can't use chat without specifying valid name!
+  </div>
+    <div class="container visible">
+      <div id="msg-box"></div>
+      <input
+        type="text"
+        id="messageBox"
+        class="form-control mb-2"
+        placeholder="Type your message here"
+      />
+      <button id="send" class="btn btn-success btn-block">Send Message</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
